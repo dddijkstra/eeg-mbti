@@ -13,7 +13,7 @@ const EEGMonitor: React.FC<EEGMonitorProps> = ({ active }) => {
   
   // Refs to handle animation loop without re-triggering effects excessively
   const dataRef = useRef<EEGDataPoint[]>([]);
-  const frameRef = useRef<number>(0);
+  const dataRef = useRef<EEGDataPoint[]>([]);
 
   // Connection Simulation
   useEffect(() => {
