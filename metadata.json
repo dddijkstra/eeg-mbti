@@ -1,0 +1,5 @@
+{
+  "name": "NeuroType - EEG Enhanced Personality Test",
+  "description": "A modern MBTI assessment platform that simulates real-time EEG (Brainwave) data collection to provide a holistic personality analysis.",
+  "requestFramePermissions": []
+}
