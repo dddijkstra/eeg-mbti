@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Brain, ArrowRight } from 'lucide-react';
 import { QUESTIONS } from './constants';
-import { AppPhase, Dimension, PersonalityResult } from './types';
+import { AppPhase, Dimension, PersonalityResult, Question } from './types';
 import { analyzePersonality } from './services/analysisService';
 import ProgressBar from './components/ProgressBar';
 import EEGMonitor from './components/EEGMonitor';
